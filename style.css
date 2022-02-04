@@ -2,21 +2,12 @@ body{
   background-color: rgb(239, 242, 243);
   font-style: inherit;
 }
-.banner{ 
-  position: relative;
-}
-.over {
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  margin: 10px;
-}
-.logo{
-  height: 240px;
+.banner-img {
+  background-image: url("images/header-lg.png");
 }
 
 .title-size{
-  height: 350px;
+  height: 400px;
 }
 .title{
     font-size: 50px; 
@@ -49,8 +40,7 @@ input {
   width: 43.44px;
   height: 39px;
 }
-input[type="checkbox"] {
-  
+input[type="checkbox"] { 
   accent-color:#50E2D0 ;  
 }
 
@@ -69,19 +59,13 @@ input[type="checkbox"] {
 
 
 @media only screen and (max-width: 600px) {
-  .banner{
-   
+  .banner-img {
+    background-image: url("images/header-sm.png");
   }
   .counter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
  
   }
-  .logo{
-    height: 100px;
-  }
+ 
   .title-size{
     height: 250px ;
   }
